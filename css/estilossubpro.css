@@ -82,10 +82,11 @@ body
 {
     height: 100%;
     width: 100%;
-    font-size: 70px;
+    font-size: 250%;
     margin-bottom: 0;
     font-family: 'Lobster', cursive;
     position: relative;
+
 }
 
 @media (max-width: 960px)
@@ -96,12 +97,25 @@ body
     }    
 }
 
+
+
+@media (min-width: 980px)
+{
+    .header-content h1
+    {
+        height: 100%;
+        width: 100%;
+        font-size: 100px;
+    }    
+}
+
 .img-fluid
 {
     width: 500px;
     max-width: auto;
     height: auto;
 }
+
 
 
 /*BARRA DE NAVEGACIÓN*/
