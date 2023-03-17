@@ -81,6 +81,11 @@ body
     font-size: 70px;
     font-family: 'Lobster', cursive;
     position: relative;
+    height: 100%;
+    width: 100%;
+    font-size: 250%;
+    margin-bottom: 0;
+    
   
 }
 
@@ -107,6 +112,18 @@ body
     }    
 }
 
+
+
+
+@media (min-width: 980px)
+{
+    .header-content h1
+    {
+        height: 100%;
+        width: 100%;
+        font-size: 100px;
+    }    
+}
 .img-fluid
 {
     width: 500px;
