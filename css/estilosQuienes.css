@@ -56,10 +56,11 @@ body
 {
     height: 100%;
     width: 100%;
-    font-size: 70px;
+    font-size: 250%;
     margin-bottom: 0;
     font-family: 'Lobster', cursive;
     position: relative;
+
 }
 
 @media (max-width: 960px)
@@ -67,6 +68,19 @@ body
     .content
     {
         padding: 0 3rem 0 3rem;
+    }    
+}
+
+
+
+
+@media (min-width: 980px)
+{
+    .header-content h1
+    {
+        height: 100%;
+        width: 100%;
+        font-size: 100px;
     }    
 }
 
